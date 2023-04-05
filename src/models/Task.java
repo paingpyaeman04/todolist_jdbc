@@ -1,5 +1,9 @@
 package models;
 
+/**
+ * A simple POJO to store the task object associated with the rows in the tasks
+ * table in the database.
+ */
 public class Task {
     private int id;
     private String name;
