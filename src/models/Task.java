@@ -5,9 +5,19 @@ public class Task {
     private String name;
     private boolean isDone;
 
+    public Task(int id, String name, boolean isDone) {
+        this.id = id;
+        this.name = name;
+        this.isDone = isDone;
+    }
+
     public Task(String name, boolean isDone) {
         this.name = name;
         this.isDone = isDone;
+    }
+
+    public Task(String name) {
+        this.name = name;
     }
 
     public int getId() {
